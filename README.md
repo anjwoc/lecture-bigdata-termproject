@@ -19,13 +19,13 @@ weather1833747~weather1845604까지 생성된 토픽들
 실행 환경 : intelliJ IDEA
 처음 계획으로는 스파크에서 데이터를 분석하려했으나 넘어온 api 데이터로 뭘 처리할지 못찾아서 그냥 구조도 상 거치기만 함
 
-![jar_file](/image/4.png)#
+![jar_file](/image/4.png)  
 생성된 jar파일을 실행할 때 spark-submit에서 package옵션으로 기술해주는 이유는 build.sbt파일에서 dependency를 기술해주는데 이유는 모르지만 dependency가 인식이 안되서 직접 기술 
 '''
 $SPARK_HOME/bin/spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.2.0,org.apache.kafka:kafka_2.12:0.11.0.0 --class Weather --master yarn kafka-wordcount_2.11-0.1.jar
 '''
 
-![spark-submit](/image/5.png)#
+![spark-submit](/image/5.png)  
 spark를 실행시켜놓고 Crontab으로 api데이터를 받아오는 python파일을 10분에 한번씩 실행되게 등록시킨다. 10분마다 python코드가 실행되면 데이터가 들어오면 spark에서 데이터를 처리 후 kafka로 보낸다.
 
 # Kafka -> node.js

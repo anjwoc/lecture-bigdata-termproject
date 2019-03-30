@@ -1,0 +1,15 @@
+﻿{
+  "first_user": {
+    "password ": "first_pass",
+    "name": "kim",
+    "position": "doctor"
+  },
+  "second_user": {
+    "password": "socond_pass",
+    "name": "Lee",
+    "position": "patient"
+  }
+
+
+
+}

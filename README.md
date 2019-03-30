@@ -1,5 +1,5 @@
-### 빅데이터의 이해 수업 Termproject
-# 기상데이터 실시간 처리 플랫폼
+# 빅데이터의 이해 수업 Termproject
+### 기상데이터 실시간 처리 플랫폼
 ----
 # API 요청을 보내면 넘어오는 데이터의 형태
 ![openweathermap_data](/image/1.png)

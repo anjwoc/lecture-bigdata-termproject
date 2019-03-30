@@ -6,7 +6,7 @@ cityId = []
 #kafka와 연결
 #producer = KafkaProducer(bootstrap_servers=['kafka001:9092'])
 apiaddress = "https://api.openweathermap.org/data/2.5/weather?id="
-apiKey = "&APPID=6198a2c9222ed9081dc963c0f50656df"
+apiKey = "apikey"
 f= open("citylist.json", 'r')
 lines = f.readlines()
 for line in lines:

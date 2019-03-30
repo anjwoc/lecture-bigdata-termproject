@@ -39,6 +39,5 @@ spark를 실행시켜놓고 Crontab으로 api데이터를 받아오는 python파
 # Webserver -> Webpage
 Highcharts라이브러리와 google map API를 이용해서 해당 도시들의 위치에 marker로 표시하고 marker를 클릭하면 infomap이 나와서 도시의 기상 데이터를 보여줍니다. Highcharts에서는 온/습도를 꺾은선 그래프로 표현해줍니다. 
 10분마다 크론탭에 등록 된 python코드가 실행되면 새로 데이터가 업데이트되서 실시간으로 처리 됩니다.
-시간에 쫓겨서 웹페이지 디자인은 신경을 못썼습니다.
 ![webpage_1](/image/12.png)
 ![webpage_2](/image/13.png)

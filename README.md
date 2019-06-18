@@ -10,6 +10,8 @@
 ## 실시간 데이터 발생(python)
 openweathermap사이트에서 제공해주는 도시들의 목록이 닮긴 json파일을 받아서 원하는 도시들의 리스트들만 추려낸 citylist.json파일에서 해당 도시들의 id값들을 읽어와서 requests.get메소드를 이용해서 api 데이터를 받아온다.
 위의 스크린샷을 보면 데이터를 받아서 바로 사용하기 번거로운 형태에서 가공을 해줘서 dumps메소드로 json으로 파싱하고 kafka로 전송하기 위해서는 string에서 binary 타입으로 인코딩시켜야 하기때문에 인코딩하고 전송
+![python_code](/image/14.png)
+![python_code](/image/15.png)
 
 ## Kafka 토픽 리스트 확인
 ![topiclist](/image/3.png)

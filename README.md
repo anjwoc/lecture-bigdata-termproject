@@ -19,7 +19,6 @@ weather1833747~weather1845604까지 생성된 토픽들
 
 ## Kafka -> Spark & Spark -> Kafka
 실행 환경 : intelliJ IDEA
-처음 계획으로는 스파크에서 데이터를 분석하려했으나 넘어온 api 데이터로 뭘 처리할지 못찾아서 그냥 구조도 상 거치기만 함
 
 ![spark_code](/image/16.png)
   ![spark_code](/image/17.png)  
